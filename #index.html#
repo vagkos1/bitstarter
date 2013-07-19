@@ -97,11 +97,11 @@
       .footer a {
         color: #ccccff;
       }
+      
     </style>
   </head>
   <body>
-
-    <!-- Mobile-friendly navbar adapted from example. -->
+     <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -119,10 +119,10 @@
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
+          </div><!-- end nav-collapse -->
+        </div><!-- end container --> 
+      </div><!-- end navbar-inner -->
+    </div><!-- end navbar navbar-inverse navbar-fixed-top -->
 
     <!-- We use row-fluid inside containers to achieve a resizable layout. -->
     <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
@@ -148,7 +148,7 @@
           <img class="img-polaroid" src="http://placehold.it/480x300">
         </div>
 
-        <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
+	<!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
           <div class="span8 offset2">
             <div class="statistics">
@@ -193,7 +193,7 @@
           </div>
         </div>
       </div>
-
+      
       <!-- Beyond this part the marketing copy begins. -->
       <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
       <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
@@ -290,5 +290,7 @@
         </div>
       </div>
     </div>
+
+
   </body>
 </html>
